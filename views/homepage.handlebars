@@ -1,7 +1,11 @@
-<ul class="post-list">
-    {{#each posts as |post|}}
-    <li>
-        {{> post-info post }}
-    </li>
-    {{/each}}
-</ul>
+{{#each posts as |post| }}
+
+{{!-- partial for the post-info that will place all the content in the partial here --}}
+{{> post-info post }}
+</div>
+
+{{else}}
+<h6>
+    No posts yet.
+</h6>
+{{/each}}

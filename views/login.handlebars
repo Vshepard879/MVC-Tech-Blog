@@ -1,24 +1,16 @@
-<section class="login-page">
-    <div class="form-heading">
-        <h1>Log In</h1>
-    </div>
-    <div class="form-section">
-        <form class="login-form">
-            <div>
-                <label for="username-login">Username</label>
-                <input type="text" class="entry-field" id="username-login" />
-            </div>
-            <div>
-                <label for="password-login">Password</label>
-                <input type="password" class="entry-field" id="password-login" />
-            </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Log In!</button>
-            </div>
-        </form>
-    </div>
+<section>
+<h2 class="mb-4">Welcome back to Tech Blog please login to access your personal blogs </h2>
+<form class="login-form">
+    <div class="row">
+        <label for="email-login">Email:</label>
+        <input type="text" id="email-login" name="email" placeholder="email" required />
 
-    <a href="/signup" class="sign-in-link">sign up instead</a>
+        <label for="password-login">Password:</label>
+        <input type="password" id="password-login" name="password" placeholder="password" required />
+   
+    <button type="submit" class="btn btn-primary mt-3">Login</button>
+ </div>
+ </form>
 </section>
 
-<script src="/javascript/login.js"></script>
+<script src="/js/login.js"></script>
