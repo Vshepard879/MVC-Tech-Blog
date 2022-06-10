@@ -1,4 +1,4 @@
-//  a synchrnous function to login
+//  asynchrnous function to login
 async function loginFormHandler(event) {
     // preventDefault method prevents the form from submitting and reloading the page until the form is submitted
       event.preventDefault();
