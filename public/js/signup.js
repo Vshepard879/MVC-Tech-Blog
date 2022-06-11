@@ -1,4 +1,4 @@
-// a synchrnous function to signup
+// async function to signup
 async function signupFormHandler(event) {
     // preventDefault method prevents the form from submitting and reloading the page until the form is submitted
     event.preventDefault();
